@@ -1,0 +1,116 @@
+/*** Google Fonts (http://fonts.googleapis.com/css?family=Open+Sans%3A400%7CPlayfair+Display%3A400) ***/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(http://fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYhQ.ttf) format('truetype');
+}
+
+/*** Skin css ***/
+.tg-wiso-lima a:not([class*="tg-element-"]),
+.tg-wiso-lima a:not([class*="tg-element-"]):active,
+.tg-wiso-lima a:not([class*="tg-element-"]):focus,
+.tg-wiso-lima [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-wiso-lima [class*="tg-element-"],
+.tg-wiso-lima .tg-item-overlay,
+.tg-wiso-lima .tg-center-holder,
+.tg-wiso-lima .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-wiso-lima .tg-item-inner {
+	overflow: hidden;
+}
+.tg-wiso-lima .tg-item-overlay {
+	background-color: #222222 !important;
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.tg-wiso-lima:not(.tg-force-play):not(.tg-is-playing) .tg-item-media-inner > * {
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-ms-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-wiso-lima:not(.tg-force-play):not(.tg-is-playing):hover .tg-item-media-inner > * {
+	-webkit-transform: translate3d(0px,-40px,0px);
+	-moz-transform: translate3d(0px,-40px,0px);
+	-ms-transform: translate3d(0px,-40px,0px);
+	transform: translate3d(0px,-40px,0px);
+}
+.tg-wiso-lima .tg-bottom-holder {
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-ms-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+	-webkit-transform: translate3d(0%,100%,0px);
+	-moz-transform: translate3d(0%,100%,0px);
+	-ms-transform: translate3d(0%,100%,0px);
+	transform: translate3d(0%,100%,0px);
+}
+.tg-wiso-lima:hover .tg-bottom-holder {
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-wiso-lima div.tg-item-media-content {
+	text-align: center;
+}
+.tg-wiso-lima .tg-element-1 {
+	position: relative;
+	font-size: 24px;
+	line-height: 1.4em;
+	color: #ffffff !important;
+	font-weight: 400;
+	font-family: Open Sans;
+	letter-spacing: 1px;
+	display: block;
+	margin: 16px 46px 10px;
+	padding: 0;
+}
+.tg-wiso-lima .tg-element-2 {
+	position: relative;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: 400;
+	font-family: Playfair Display;
+	font-style: italic;
+	letter-spacing: 1px;
+	display: block;
+	margin: 0 46px 16px;
+}
+.tg-wiso-lima .tg-element-2 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}
+.tg-caracas-custom-2 .tg-bottom-holder {
+	background: #ffffff;
+}

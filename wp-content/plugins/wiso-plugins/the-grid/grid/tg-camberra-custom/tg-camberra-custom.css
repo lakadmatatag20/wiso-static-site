@@ -1,0 +1,114 @@
+.tg-camberra-custom a:not([class*="tg-element-"]),
+.tg-camberra-custom a:not([class*="tg-element-"]):active,
+.tg-camberra-custom a:not([class*="tg-element-"]):focus,
+.tg-camberra-custom [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-camberra-custom [class*="tg-element-"],
+.tg-camberra-custom .tg-item-overlay,
+.tg-camberra-custom .tg-center-holder,
+.tg-camberra-custom .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-camberra-custom .tg-item-inner {
+	overflow: hidden;
+}
+.tg-camberra-custom .tg-item-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.tg-camberra-custom:not(.tg-force-play):not(.tg-is-playing) .tg-item-media-inner > * {
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-camberra-custom:not(.tg-force-play):not(.tg-is-playing):hover .tg-item-media-inner > * {
+	-webkit-transform: translate3d(0%,-100%,0px);
+	-moz-transform: translate3d(0%,-100%,0px);
+	-ms-transform: translate3d(0%,-100%,0px);
+	transform: translate3d(0%,-100%,0px);
+}
+.tg-camberra-custom div.tg-item-media-content {
+	text-align: center;
+	background-color: #ffffff;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+	-webkit-transform: translate3d(0%,100%,0px);
+	-moz-transform: translate3d(0%,100%,0px);
+	-ms-transform: translate3d(0%,100%,0px);
+	transform: translate3d(0%,100%,0px);
+}
+.tg-camberra-custom:hover .tg-item-media-content {
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-camberra-custom .tg-element-3 {
+	position: absolute;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+	text-align: center;
+	display: block;
+	bottom: 22px;
+	right: 22px;
+	z-index: 3;
+	width: 20px;
+	min-width: 20px;
+	height: 20px;
+	min-height: 20px;
+	cursor: pointer;
+	-webkit-transition: all 340ms ease;
+	-moz-transition: all 340ms ease;
+	-ms-transition: all 340ms ease;
+	transition: all 340ms ease;
+}
+.tg-camberra-custom .tg-element-3:hover {
+	opacity: 0.75 !important;
+}
+.tg-camberra-custom .tg-element-1 {
+	position: relative;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	margin: 0 30px 5px;
+	padding: 0;
+}
+.tg-camberra-custom .tg-element-2 {
+	position: relative;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 400;
+	display: block;
+	margin: 0 30px 5px;
+}
+.tg-camberra-custom .tg-element-2 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}

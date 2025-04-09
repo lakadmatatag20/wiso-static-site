@@ -1,0 +1,125 @@
+.tg-flip-3d a:not([class*="tg-element-"]),
+.tg-flip-3d a:not([class*="tg-element-"]):active,
+.tg-flip-3d a:not([class*="tg-element-"]):focus,
+.tg-flip-3d [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-flip-3d [class*="tg-element-"],
+.tg-flip-3d .tg-item-overlay,
+.tg-flip-3d .tg-center-holder,
+.tg-flip-3d .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-flip-3d .tg-item-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.tg-flip-3d:not(.tg-force-play):not(.tg-is-playing) .tg-item-media-inner > * {
+	-webkit-transition: all 700ms ease;
+	-moz-transition: all 700ms ease;
+	-ms-transition: all 700ms ease;
+	transition: all 700ms ease;
+	-webkit-transform: perspective(1600px)  scale3d(1,1,1) rotateY(0);
+	-moz-transform: perspective(1600px)  scale3d(1,1,1) rotateY(0);
+	-ms-transform: perspective(1600px)  scale3d(1,1,1) rotateY(0);
+	transform: perspective(1600px)  scale3d(1,1,1) rotateY(0);
+}
+.tg-flip-3d:not(.tg-force-play):not(.tg-is-playing):hover .tg-item-media-inner > * {
+	-webkit-transform: perspective(1600px)  scale3d(0.5,0.5,1) rotateY(-180deg);
+	-moz-transform: perspective(1600px)  scale3d(0.5,0.5,1) rotateY(-180deg);
+	-ms-transform: perspective(1600px)  scale3d(0.5,0.5,1) rotateY(-180deg);
+	transform: perspective(1600px)  scale3d(0.5,0.5,1) rotateY(-180deg);
+}
+.tg-flip-3d div.tg-item-media-content {
+	text-align: center;
+	background-color: #ffffff;
+	-webkit-transition: all 700ms ease;
+	-moz-transition: all 700ms ease;
+	-ms-transition: all 700ms ease;
+	transition: all 700ms ease;
+	-webkit-transform: perspective(1600px)  scale3d(0.5,0.5,1) rotateY(180deg);
+	-moz-transform: perspective(1600px)  scale3d(0.5,0.5,1) rotateY(180deg);
+	-ms-transform: perspective(1600px)  scale3d(0.5,0.5,1) rotateY(180deg);
+	transform: perspective(1600px)  scale3d(0.5,0.5,1) rotateY(180deg);
+}
+.tg-flip-3d:hover .tg-item-media-content {
+	-webkit-transform: perspective(1600px)  scale3d(1,1,1) rotateY(0);
+	-moz-transform: perspective(1600px)  scale3d(1,1,1) rotateY(0);
+	-ms-transform: perspective(1600px)  scale3d(1,1,1) rotateY(0);
+	transform: perspective(1600px)  scale3d(1,1,1) rotateY(0);
+}
+.tg-flip-3d .tg-element-1 {
+	position: relative;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 400;
+	display: block;
+	margin: 0;
+	padding: 8px 0;
+}
+.tg-flip-3d .tg-element-3 {
+	position: relative;
+	font-size: 16px;
+	line-height: 40px;
+	color: #ffffff !important;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgba(51,51,51,0.7);
+	display: inline-block;
+	width: 40px;
+	min-width: 40px;
+	height: 40px;
+	min-height: 40px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius: 100%;
+}
+.tg-flip-3d .tg-element-2 {
+	position: relative;
+	font-size: 16px;
+	line-height: 40px;
+	color: #ffffff !important;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgba(51,51,51,0.7);
+	display: inline-block;
+	width: 40px;
+	min-width: 40px;
+	height: 40px;
+	min-height: 40px;
+	margin: 10px;
+	border-radius: 100%;
+}
+.tg-flip-3d .tg-item-media-inner {
+	overflow: visible;
+}
+.tg-flip-3d .tg-item-media-holder > * {
+	transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.tg-flip-3d .tg-item-media-inner > * {
+	transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.tg-flip-3d .tg-center-holder {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}

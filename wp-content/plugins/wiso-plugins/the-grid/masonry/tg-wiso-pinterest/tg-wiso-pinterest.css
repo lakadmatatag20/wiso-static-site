@@ -1,0 +1,100 @@
+/*** Google Fonts (http://fonts.googleapis.com/css?family=Open+Sans%3A600%7CPlayfair+Display%3A400) ***/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(http://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(http://fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYhQ.ttf) format('truetype');
+}
+
+/*** Skin css ***/
+.tg-wiso-pinterest a:not([class*="tg-element-"]),
+.tg-wiso-pinterest a:not([class*="tg-element-"]):active,
+.tg-wiso-pinterest a:not([class*="tg-element-"]):focus,
+.tg-wiso-pinterest [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-wiso-pinterest [class*="tg-element-"],
+.tg-wiso-pinterest .tg-item-overlay,
+.tg-wiso-pinterest .tg-center-holder,
+.tg-wiso-pinterest .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-wiso-pinterest .tg-element-3 {
+	position: relative;
+	font-size: 12px;
+	line-height: 2em;
+	color: #ffffff !important;
+	font-weight: 600;
+	font-family: Open Sans;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: inline-block;
+}
+.tg-wiso-pinterest .tg-element-3 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}
+.tg-wiso-pinterest .tg-element-2 {
+	position: relative;
+	font-size: 30px;
+	line-height: 1.4em;
+	color: #ffffff !important;
+	font-weight: 400;
+	font-family: Playfair Display;
+	letter-spacing: 1px;
+	display: block;
+	margin: 0;
+	padding: 8px 0;
+}
+.tg-wiso-pinterest {
+	overflow: hidden;
+}
+.tg-wiso-pinterest .title {
+	padding: 0;
+	font-weight: 600;
+	transition: color .35s ease;
+}
+.tg-wiso-pinterest .title:hover a {
+	color: #999!important;
+}
+.tg-wiso-pinterest .tg-item-media-content .tg-bottom-holder {
+	position: absolute;
+	top: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	box-sizing: border-box;
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	transform: translateY(100%);
+	padding: 15px;
+	-webkit-transition: -webkit-transform .4s ease-in-out;
+	-moz-transition: -moz-transform .4s ease-in-out;
+	transition: transform .4s ease-in-out;
+	background-color: #222;
+}
+.tg-wiso-pinterest:hover .tg-item-media-content .tg-bottom-holder {
+	transform: translateY(1px);
+}
+.tg-wiso-pinterest .tg-item-overlay {
+	display: none;
+}

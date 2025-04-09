@@ -1,0 +1,89 @@
+/*** Google Fonts (http://fonts.googleapis.com/css?family=Open+Sans%3A600%26subset%3Dcyrillic-ext) ***/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(http://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhs.ttf) format('truetype');
+}
+
+/*** Skin css ***/
+.tg-iso-1 a:not([class*="tg-element-"]),
+.tg-iso-1 a:not([class*="tg-element-"]):active,
+.tg-iso-1 a:not([class*="tg-element-"]):focus,
+.tg-iso-1 [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-iso-1 [class*="tg-element-"],
+.tg-iso-1 .tg-item-overlay,
+.tg-iso-1 .tg-center-holder,
+.tg-iso-1 .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-iso-1 .tg-item-overlay {
+	background-color: rgba(0,0,0,0.01) !important;
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.tg-iso-1 .tg-element-1 {
+	position: relative;
+	font-size: 12px;
+	line-height: 2em;
+	color: #222222 !important;
+	font-weight: 600;
+	font-family: Open Sans;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-color: #ffffff !important;
+	display: inline-block;
+	margin: 0;
+	padding: 15px 35px;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.tg-iso-1 .tg-element-1:hover {
+	color: #ffffff !important;
+	background-color: #222222 !important;
+	opacity: 1 !important;
+}
+.tg-iso-1 a {
+	transition: none;
+}
+.tg-iso-1 .title {
+	position: relative;
+}
+.tg-iso-1 .title::after {
+	content: "\f3d6";
+	font-family: "Ionicons";
+	position: absolute;
+	font-size: 24px;
+	color: #fff;
+	right: 20px;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .3s ease, visibility .3s ease;
+}
+.tg-iso-1 .title:hover {
+	padding-right: 65px;
+}
+.tg-iso-1 .title:hover::after {
+	opacity: 1;
+	visibility: visible;
+}

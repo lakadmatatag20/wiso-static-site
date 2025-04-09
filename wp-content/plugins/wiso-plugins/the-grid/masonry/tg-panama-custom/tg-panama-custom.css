@@ -1,0 +1,328 @@
+.tg-panama-custom a:not([class*="tg-element-"]),
+.tg-panama-custom a:not([class*="tg-element-"]):active,
+.tg-panama-custom a:not([class*="tg-element-"]):focus,
+.tg-panama-custom [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-panama-custom [class*="tg-element-"],
+.tg-panama-custom .tg-item-overlay,
+.tg-panama-custom .tg-center-holder,
+.tg-panama-custom .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-panama-custom .tg-item-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 400ms ease !important;
+	-moz-transition: all 400ms ease !important;
+	-ms-transition: all 400ms ease !important;
+	transition: all 400ms ease !important;
+}
+.tg-panama-custom:not(.tg-force-play):not(.tg-is-playing) .tg-item-media-holder:hover .tg-item-overlay {
+	opacity: 1;
+	visibility: visible;
+}
+.tg-panama-custom .tg-item-content-holder[data-position="top"] {
+	position: relative;
+	min-height: 1px;
+	display: block;
+	padding: 28px 24px 17px;
+}
+.tg-panama-custom .tg-item-content-holder[data-position="bottom"] {
+	position: relative;
+	min-height: 1px;
+	display: block;
+	padding: 22px 24px 18px;
+}
+.tg-panama-custom div.tg-item-media-content {
+	text-align: center;
+}
+.tg-panama-custom .tg-element-3 {
+	position: relative;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.tg-panama-custom .tg-element-4 {
+	position: relative;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 400;
+	display: inline-block;
+	padding: 0 12px 0 0;
+}
+.tg-panama-custom .tg-element-6 {
+	position: relative;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 400;
+	border-color: rgba(168,168,168,0.5) !important;
+	display: inline;
+	padding: 0 0 0 12px;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+}
+.tg-panama-custom .tg-element-6 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}
+.tg-panama-custom .tg-element-14 {
+	position: relative;
+	font-size: 13px;
+	line-height: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: rgba(0,0,0,0.15);
+	display: inline-block;
+	margin: 10px;
+	padding: 6px 14px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	-webkit-transform-origin: 50% 100% 0;
+	-moz-transform-origin: 50% 100% 0;
+	-ms-transform-origin: 50% 100% 0;
+	transform-origin: 50% 100% 0;
+	-webkit-transform: perspective(250px)  rotateX(60deg);
+	-moz-transform: perspective(250px)  rotateX(60deg);
+	-ms-transform: perspective(250px)  rotateX(60deg);
+	transform: perspective(250px)  rotateX(60deg);
+}
+.tg-panama-custom .tg-item-media-holder:hover .tg-element-14 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: perspective(250px)  rotateX(0);
+	-moz-transform: perspective(250px)  rotateX(0);
+	-ms-transform: perspective(250px)  rotateX(0);
+	transform: perspective(250px)  rotateX(0);
+}
+.tg-panama-custom .tg-element-14:hover {
+	background-color: rgba(0,0,0,0.35);
+	opacity: 1 !important;
+}
+.tg-panama-custom .tg-element-10 {
+	position: relative;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgba(0,0,0,0.15);
+	display: inline-block;
+	float: left;
+	width: 30px;
+	min-width: 30px;
+	height: 30px;
+	min-height: 30px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 150ms ease-out;
+	-moz-transition: all 150ms ease-out;
+	-ms-transition: all 150ms ease-out;
+	transition: all 150ms ease-out;
+	-webkit-transform: translate3d(0%,100%,0px);
+	-moz-transform: translate3d(0%,100%,0px);
+	-ms-transform: translate3d(0%,100%,0px);
+	transform: translate3d(0%,100%,0px);
+}
+.tg-panama-custom .tg-item-media-holder:hover .tg-element-10 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-panama-custom .tg-element-10:hover {
+	background-color: rgba(0,0,0,0.35);
+	opacity: 1 !important;
+}
+.tg-panama-custom .tg-element-11 {
+	position: relative;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgba(0,0,0,0.15);
+	display: inline-block;
+	float: left;
+	width: 30px;
+	min-width: 30px;
+	height: 30px;
+	min-height: 30px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 150ms ease-out 100ms;
+	-moz-transition: all 150ms ease-out 100ms;
+	-ms-transition: all 150ms ease-out 100ms;
+	transition: all 150ms ease-out 100ms;
+	-webkit-transform: translate3d(0%,100%,0px);
+	-moz-transform: translate3d(0%,100%,0px);
+	-ms-transform: translate3d(0%,100%,0px);
+	transform: translate3d(0%,100%,0px);
+}
+.tg-panama-custom .tg-item-media-holder:hover .tg-element-11 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-panama-custom .tg-element-11:hover {
+	background-color: rgba(0,0,0,0.35);
+	opacity: 1 !important;
+}
+.tg-panama-custom .tg-element-12 {
+	position: relative;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgba(0,0,0,0.15);
+	display: inline-block;
+	float: left;
+	width: 30px;
+	min-width: 30px;
+	height: 30px;
+	min-height: 30px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 150ms ease-out 200ms;
+	-moz-transition: all 150ms ease-out 200ms;
+	-ms-transition: all 150ms ease-out 200ms;
+	transition: all 150ms ease-out 200ms;
+	-webkit-transform: translate3d(0%,100%,0px);
+	-moz-transform: translate3d(0%,100%,0px);
+	-ms-transform: translate3d(0%,100%,0px);
+	transform: translate3d(0%,100%,0px);
+}
+.tg-panama-custom .tg-item-media-holder:hover .tg-element-12 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-panama-custom .tg-element-12:hover {
+	background-color: rgba(0,0,0,0.35);
+	opacity: 1 !important;
+}
+.tg-panama-custom .tg-element-13 {
+	position: relative;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgba(0,0,0,0.15);
+	display: inline-block;
+	float: left;
+	width: 30px;
+	min-width: 30px;
+	height: 30px;
+	min-height: 30px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 150ms ease-out 300ms;
+	-moz-transition: all 150ms ease-out 300ms;
+	-ms-transition: all 150ms ease-out 300ms;
+	transition: all 150ms ease-out 300ms;
+	-webkit-transform: translate3d(0%,100%,0px);
+	-moz-transform: translate3d(0%,100%,0px);
+	-ms-transform: translate3d(0%,100%,0px);
+	transform: translate3d(0%,100%,0px);
+}
+.tg-panama-custom .tg-item-media-holder:hover .tg-element-13 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-panama-custom .tg-element-13:hover {
+	background-color: rgba(0,0,0,0.35);
+	opacity: 1 !important;
+}
+.tg-panama-custom .tg-element-5 {
+	position: relative;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	display: block;
+	margin: 0;
+	padding: 0 0 22px;
+}
+.tg-panama-custom .tg-element-7 {
+	position: relative;
+	font-size: 13px;
+	line-height: 25px;
+	font-weight: 400;
+	font-style: italic;
+	display: inline-block;
+	float: left;
+}
+.tg-panama-custom .tg-element-8 {
+	position: relative;
+	font-size: 13px;
+	line-height: 25px;
+	font-weight: 400;
+	display: inline-block;
+	float: right;
+	margin: 0 0 0 12px;
+}
+.tg-panama-custom .tg-element-8 .to-heart-icon {
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 2px 4px 0 0;
+}
+.tg-panama-custom .tg-element-9 {
+	position: relative;
+	font-size: 13px;
+	line-height: 25px;
+	font-weight: 400;
+	display: inline-block;
+	float: right;
+}
+.tg-panama-custom .tg-element-9 {
+	text-decoration: none;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.tg-panama-custom.tg-item .tg-element-9 i {
+	position: relative;
+	display: inline-block;
+	padding: 0 1px;
+	float: left;
+	font-size: 15px;
+	line-height: initial;
+	margin: 5px 4px 0 0;
+}

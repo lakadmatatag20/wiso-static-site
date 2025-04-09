@@ -1,0 +1,92 @@
+/*** Google Fonts (http://fonts.googleapis.com/css?family=Open+Sans%3A400%26subset%3Dcyrillic-ext) ***/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+
+/*** Skin css ***/
+.tg-wiso-transform a:not([class*="tg-element-"]),
+.tg-wiso-transform a:not([class*="tg-element-"]):active,
+.tg-wiso-transform a:not([class*="tg-element-"]):focus,
+.tg-wiso-transform [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-wiso-transform [class*="tg-element-"],
+.tg-wiso-transform .tg-item-overlay,
+.tg-wiso-transform .tg-center-holder,
+.tg-wiso-transform .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-wiso-transform .tg-item-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.tg-wiso-transform .tg-element-1 {
+	position: relative;
+	font-size: 24px;
+	line-height: 1.4em;
+	color: #ffffff !important;
+	font-weight: 400;
+	letter-spacing: 1.2px;
+	display: block;
+	margin: 0;
+	padding: 8px 0;
+}
+.tg-wiso-transform .tg-element-2 {
+	position: relative;
+	font-size: 12px;
+	line-height: 2em;
+	color: #999999 !important;
+	font-weight: 400;
+	font-family: Open Sans;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: inline-block;
+}
+.tg-wiso-transform .tg-element-2 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}
+.tg-wiso-transform .tg-item-media-content {
+	background-color: #222;
+	position: absolute;
+	max-width: 100%;
+	height: 100%;
+	left: -15px;
+	top: 15px;
+	padding: 40px 90px 40px 40px;
+	visibility: hidden;
+	opacity: 0;
+}
+.tg-wiso-transform:hover .tg-item-media-content {
+	opacity: 1;
+	visibility: visible;
+}
+.tg-wiso-transform .tg-item-overlay {
+	display: none;
+}
+.tg-wiso-transform .tg-bottom-holder {
+	padding: 40px 30px;
+}
+.tg-wiso-transform .tg-bottom-holder .title {
+	font-family: "Playfair Display", sans-serif;
+	font-weight: 600;
+}

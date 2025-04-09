@@ -1,0 +1,113 @@
+/*** Google Fonts (http://fonts.googleapis.com/css?family=Playfair+Display%3A400%7COpen+Sans%3A600) ***/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(http://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(http://fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYhQ.ttf) format('truetype');
+}
+
+/*** Skin css ***/
+.tg-iso-praia a:not([class*="tg-element-"]),
+.tg-iso-praia a:not([class*="tg-element-"]):active,
+.tg-iso-praia a:not([class*="tg-element-"]):focus,
+.tg-iso-praia [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-iso-praia [class*="tg-element-"],
+.tg-iso-praia .tg-item-overlay,
+.tg-iso-praia .tg-center-holder,
+.tg-iso-praia .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-iso-praia .tg-item-inner {
+	overflow: hidden;
+}
+.tg-iso-praia .tg-item-overlay {
+	background-color: #222222 !important;
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.tg-iso-praia:not(.tg-force-play):not(.tg-is-playing) .tg-item-media-inner > * {
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-iso-praia:not(.tg-force-play):not(.tg-is-playing):hover .tg-item-media-inner > * {
+	-webkit-transform: translate3d(0%,-100%,0px);
+	-moz-transform: translate3d(0%,-100%,0px);
+	-ms-transform: translate3d(0%,-100%,0px);
+	transform: translate3d(0%,-100%,0px);
+}
+.tg-iso-praia div.tg-item-media-content {
+	text-align: center;
+	background-color: #ffffff;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+	-webkit-transform: translate3d(0%,100%,0px);
+	-moz-transform: translate3d(0%,100%,0px);
+	-ms-transform: translate3d(0%,100%,0px);
+	transform: translate3d(0%,100%,0px);
+}
+.tg-iso-praia:hover .tg-item-media-content {
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-iso-praia .tg-element-1 {
+	position: relative;
+	font-size: 30px;
+	line-height: 38px;
+	color: #ffffff !important;
+	font-weight: 400;
+	font-family: Playfair Display;
+	letter-spacing: 1px;
+	display: block;
+	margin: 0 30px 10px;
+	padding: 0;
+}
+.tg-iso-praia .tg-element-2 {
+	position: relative;
+	font-size: 12px;
+	line-height: 18px;
+	color: #ffffff !important;
+	font-weight: 600;
+	font-family: Open Sans;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: block;
+	margin: 0 30px 5px;
+}
+.tg-iso-praia .tg-element-2 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}

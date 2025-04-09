@@ -1,0 +1,213 @@
+/*** Google Fonts (http://fonts.googleapis.com/css?family=Raleway%3A800%26subset%3Dlatin-ext) ***/
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url(http://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIouWqZPBQ.ttf) format('truetype');
+}
+
+/*** Skin css ***/
+.tg-big-heart a:not([class*="tg-element-"]),
+.tg-big-heart a:not([class*="tg-element-"]):active,
+.tg-big-heart a:not([class*="tg-element-"]):focus,
+.tg-big-heart [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-big-heart [class*="tg-element-"],
+.tg-big-heart .tg-item-overlay,
+.tg-big-heart .tg-center-holder,
+.tg-big-heart .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-big-heart .tg-item-inner {
+	overflow: hidden;
+}
+.tg-big-heart .tg-item-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 700ms ease !important;
+	-moz-transition: all 700ms ease !important;
+	-ms-transition: all 700ms ease !important;
+	transition: all 700ms ease !important;
+}
+.tg-big-heart:not(.tg-force-play):not(.tg-is-playing):hover .tg-item-overlay {
+	opacity: 1;
+	visibility: visible;
+}
+.tg-big-heart .tg-element-1 {
+	position: absolute;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 400;
+	text-align: center;
+	display: block;
+	left: 20px;
+	bottom: 20px;
+	z-index: 3;
+	width: 25px;
+	min-width: 25px;
+	height: 45px;
+	min-height: 45px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+	-webkit-transform: translate3d(-25px,0px,0px);
+	-moz-transform: translate3d(-25px,0px,0px);
+	-ms-transform: translate3d(-25px,0px,0px);
+	transform: translate3d(-25px,0px,0px);
+}
+.tg-big-heart:hover .tg-element-1 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-big-heart .tg-element-1 .to-heart-icon {
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 0 6px 0 0;
+}
+.tg-big-heart .tg-element-1 .to-heart-icon svg {
+	height: 24px;
+	width: 26px;
+}
+.tg-big-heart .tg-element-4 {
+	position: absolute;
+	font-size: 12px;
+	line-height: 19px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	left: 64px;
+	bottom: 17px;
+	z-index: 3;
+	height: 50px;
+	min-height: 50px;
+	margin: -25px 0 0;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+	-webkit-transform: translate3d(-25px,0px,0px);
+	-moz-transform: translate3d(-25px,0px,0px);
+	-ms-transform: translate3d(-25px,0px,0px);
+	transform: translate3d(-25px,0px,0px);
+}
+.tg-big-heart:hover .tg-element-4 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-big-heart .tg-element-2 {
+	position: relative;
+	overflow: hidden;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 800;
+	font-family: Raleway;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	display: block;
+	height: 28px;
+	min-height: 28px;
+	margin: 0 0 8px;
+	padding: 2px 30px 0 84px;
+	white-space:  nowrap;
+	text-overflow:  ellipsis;
+	-o-text-overflow:  ellipsis;
+	-ms-text-overflow:  ellipsis;
+	-moz-binding:  url('/wp-content/plugins/wiso-plugins/the-grid/grid/tg-big-heart/ellipsis.xml#ellipsis');
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	transition: all 400ms ease;
+	-webkit-transform: translate3d(25px,0px,0px);
+	-moz-transform: translate3d(25px,0px,0px);
+	-ms-transform: translate3d(25px,0px,0px);
+	transform: translate3d(25px,0px,0px);
+}
+.tg-big-heart:hover .tg-element-2 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-big-heart .tg-element-3 {
+	position: relative;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+	display: block;
+	height: 16px;
+	min-height: 16px;
+	margin: 0 20px 17px 0;
+	padding: 0 30px 0 86px;
+	white-space:  nowrap;
+	text-overflow:  ellipsis;
+	-o-text-overflow:  ellipsis;
+	-ms-text-overflow:  ellipsis;
+	-moz-binding:  url('/wp-content/plugins/wiso-plugins/the-grid/grid/tg-big-heart/ellipsis.xml#ellipsis');
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	transition: all 400ms ease;
+	-webkit-transform: translate3d(25px,0px,0px);
+	-moz-transform: translate3d(25px,0px,0px);
+	-ms-transform: translate3d(25px,0px,0px);
+	transform: translate3d(25px,0px,0px);
+}
+.tg-big-heart:hover .tg-element-3 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-big-heart .tg-element-3 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}
+.tg-big-heart .to-heart-icon * {
+	fill: transparent !important;
+	stroke-width: 3.5px !important;
+}

@@ -1,0 +1,35 @@
+//GUTENBERG EDITOR COLORS WITHOUT PLUGIN
+
+.block-editor__container .editor-styles-wrapper {
+	--light-color: #fff;
+	--dark-color: #222;
+	--grey-color: #666;
+	--soft-grey-color: #f0f0f0;
+	--main-color: #fcf9f6;
+}
+
+.edit-post-visual-editor {
+	.editor-post-title {
+		.editor-post-title__input{
+			font-size: 40px;
+		}
+	}
+}
+
+
+.editor-styles-wrapper .wp-block-freeform.block-library-rich-text__tinymce blockquote,
+.editor-styles-wrapper .wp-block .wp-block-quote{
+	color: var(--grey-color);
+}
+
+@media only screen and (max-width: 767px) {
+	.edit-post-visual-editor .editor-post-title .editor-post-title__input{
+		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.edit-post-visual-editor .editor-post-title .editor-post-title__input{
+		letter-spacing: .2px;
+	}
+}

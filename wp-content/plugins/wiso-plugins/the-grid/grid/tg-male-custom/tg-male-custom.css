@@ -1,0 +1,140 @@
+.tg-male-custom a:not([class*="tg-element-"]),
+.tg-male-custom a:not([class*="tg-element-"]):active,
+.tg-male-custom a:not([class*="tg-element-"]):focus,
+.tg-male-custom [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-male-custom [class*="tg-element-"],
+.tg-male-custom .tg-item-overlay,
+.tg-male-custom .tg-center-holder,
+.tg-male-custom .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-male-custom .tg-item-inner {
+	overflow: hidden;
+}
+.tg-male-custom .tg-item-overlay {
+	background-color: #1e73be;
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.tg-male-custom:not(.tg-force-play):not(.tg-is-playing) .tg-item-media-inner > * {
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	transition: all 500ms ease;
+	-webkit-transform-origin: 50% 0 0;
+	-moz-transform-origin: 50% 0 0;
+	-ms-transform-origin: 50% 0 0;
+	transform-origin: 50% 0 0;
+	-webkit-transform: perspective(550px) translate3d(0,0,0) rotateX(0);
+	-moz-transform: perspective(550px) translate3d(0,0,0) rotateX(0);
+	-ms-transform: perspective(550px) translate3d(0,0,0) rotateX(0);
+	transform: perspective(550px) translate3d(0,0,0) rotateX(0);
+}
+.tg-male-custom:not(.tg-force-play):not(.tg-is-playing):hover .tg-item-media-inner > * {
+	-webkit-transform: perspective(550px) translate3d(0%,100%,0px) rotateX(-60deg);
+	-moz-transform: perspective(550px) translate3d(0%,100%,0px) rotateX(-60deg);
+	-ms-transform: perspective(550px) translate3d(0%,100%,0px) rotateX(-60deg);
+	transform: perspective(550px) translate3d(0%,100%,0px) rotateX(-60deg);
+}
+.tg-male-custom div.tg-item-media-content {
+	text-align: center;
+	background-color: #ffffff;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	transition: all 500ms ease;
+	-webkit-transform-origin: 50% 100% 0;
+	-moz-transform-origin: 50% 100% 0;
+	-ms-transform-origin: 50% 100% 0;
+	transform-origin: 50% 100% 0;
+	-webkit-transform: perspective(550px) translate3d(0%,-100%,0px) rotateX(60deg);
+	-moz-transform: perspective(550px) translate3d(0%,-100%,0px) rotateX(60deg);
+	-ms-transform: perspective(550px) translate3d(0%,-100%,0px) rotateX(60deg);
+	transform: perspective(550px) translate3d(0%,-100%,0px) rotateX(60deg);
+}
+.tg-male-custom:hover .tg-item-media-content {
+	-webkit-transform: perspective(550px) translate3d(0,0,0) rotateX(0);
+	-moz-transform: perspective(550px) translate3d(0,0,0) rotateX(0);
+	-ms-transform: perspective(550px) translate3d(0,0,0) rotateX(0);
+	transform: perspective(550px) translate3d(0,0,0) rotateX(0);
+}
+.tg-male-custom .tg-element-3 {
+	position: absolute;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+	text-align: center;
+	display: block;
+	bottom: 22px;
+	right: 22px;
+	z-index: 3;
+	width: 20px;
+	min-width: 20px;
+	height: 20px;
+	min-height: 20px;
+	cursor: pointer;
+	-webkit-transition: all 340ms ease;
+	-moz-transition: all 340ms ease;
+	-ms-transition: all 340ms ease;
+	transition: all 340ms ease;
+}
+.tg-male-custom .tg-element-3:hover {
+	opacity: 0.75 !important;
+}
+.tg-male-custom .tg-element-1 {
+	position: relative;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	margin: 0 30px 5px;
+	padding: 0;
+}
+.tg-male-custom .tg-element-2 {
+	position: relative;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 400;
+	font-style: italic;
+	display: block;
+	margin: 0 30px 10px;
+}
+.tg-male-custom .tg-element-2 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}
+.is-ie .tg-male-custom .tg-item-media-content {
+	opacity: 0;
+}
+.is-ie .tg-item.tg-male-custom:hover .tg-item-media-content {
+	opacity: 1;
+}
+.tg-male-custom .tg-item-media-holder > * {
+	transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.tg-male-custom .tg-item-media-inner > * {
+	transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}

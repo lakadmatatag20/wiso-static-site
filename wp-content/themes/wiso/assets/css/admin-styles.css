@@ -1,0 +1,30 @@
+/*------------------------------#  
+
+    Some Admin Style fixes
+
+#------------------------------*/
+
+.inline.hidden {
+  display: none;
+}
+
+#widgets-right .widget .widget-top .widget-title.ui-sortable-handle {
+  padding: 0;
+  box-shadow: none;
+}
+
+.ocdi__demo-import-notice {
+    display: none;
+}
+
+.ocdi__content-container-content .ocdi-install-plugins-content-header > p {
+    display: none;
+}
+
+.ocdi-install-plugins-content-content > div:first-child {
+    display: none;
+}
+
+.ocdi-install-plugins-content-content > div.ocdi-content-notice--warning {
+    display: none;
+}

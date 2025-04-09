@@ -1,0 +1,138 @@
+$md: 992px;
+$sm: 768px;
+
+@mixin responcive($breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+
+/* PHYSICS BANNER */
+.physics-banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height: 100vh;
+  margin: 0 -15px;
+  padding: 85px 0;
+  .scroll-down-wrapper {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .arrows {
+    width: 30px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .arrows path {
+    stroke: #fff;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+  }
+
+  @keyframes arrow
+  {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+  }
+
+  @-webkit-keyframes arrow /*Safari and Chrome*/
+  {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+  }
+
+  .arrows path.a1 {
+    animation-delay:-1s;
+    -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+  }
+
+  .arrows path.a2 {
+    animation-delay:-0.5s;
+    -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+  }
+
+  .arrows path.a3 {
+    animation-delay:0s;
+    -webkit-animation-delay:0s; /* Safari 和 Chrome */
+  }
+
+  .title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10vw;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 35px;
+    pointer-events: none;
+    @include responcive($sm) {
+      font-size: 50px;
+      margin-bottom: 25px;
+    }
+  }
+  .subtitle {
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0 0.75em;
+    margin: 0;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    @include responcive($sm) {
+      font-size: 18px;
+    }
+  }
+  .button-wrapper {
+    margin-top: 50px;
+    text-align: center;
+    @include responcive($sm) {
+      margin-top: 30px;
+    }
+  }
+  .scene {
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    height: calc(100% - 170px);
+  }
+}
+
+.linira-banner {
+  .title {
+    font-family: "Playfair Display", sans-serif;
+  }
+}
+
+.decori-banner {
+  &__content {
+    text-align: center;
+  }
+  .title {
+    font-family: "Playfair Display", sans-serif;
+  }
+  .subtitle {
+    display: inline-block;
+    width: auto;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 2;
+    padding: 0 15px;
+  }
+  .button-wrapper {
+    margin-top: 80px;
+  }
+}
+

@@ -1,0 +1,165 @@
+/*** Google Fonts (http://fonts.googleapis.com/css?family=Playfair+Display%3A700%7COpen+Sans%3A400) ***/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url(http://fonts.gstatic.com/s/playfairdisplay/v13/nuFlD-vYSZviVYUb_rj3ij__anPXBYf9lW4e4w.ttf) format('truetype');
+}
+
+/*** Skin css ***/
+.tg-3d-cover a:not([class*="tg-element-"]),
+.tg-3d-cover a:not([class*="tg-element-"]):active,
+.tg-3d-cover a:not([class*="tg-element-"]):focus,
+.tg-3d-cover [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-3d-cover [class*="tg-element-"],
+.tg-3d-cover .tg-item-overlay,
+.tg-3d-cover .tg-center-holder,
+.tg-3d-cover .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-3d-cover .tg-item-overlay {
+	background-color: #1e73be;
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.tg-3d-cover:not(.tg-force-play):not(.tg-is-playing) .tg-item-media-inner > * {
+	-webkit-transition: all 2500ms ease;
+	-moz-transition: all 2500ms ease;
+	-ms-transition: all 2500ms ease;
+	transition: all 2500ms ease;
+	-webkit-transform: perspective(500px)  scale3d(1,1,1) rotateZ(0);
+	-moz-transform: perspective(500px)  scale3d(1,1,1) rotateZ(0);
+	-ms-transform: perspective(500px)  scale3d(1,1,1) rotateZ(0);
+	transform: perspective(500px)  scale3d(1,1,1) rotateZ(0);
+}
+.tg-3d-cover:not(.tg-force-play):not(.tg-is-playing):hover .tg-item-media-inner > * {
+	-webkit-transform: perspective(500px)  scale3d(1.5,1.5,1) rotateZ(5deg);
+	-moz-transform: perspective(500px)  scale3d(1.5,1.5,1) rotateZ(5deg);
+	-ms-transform: perspective(500px)  scale3d(1.5,1.5,1) rotateZ(5deg);
+	transform: perspective(500px)  scale3d(1.5,1.5,1) rotateZ(5deg);
+}
+.tg-3d-cover div.tg-item-media-content {
+	text-align: center;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 630ms ease;
+	-moz-transition: all 630ms ease;
+	-ms-transition: all 630ms ease;
+	transition: all 630ms ease;
+	-webkit-transform-origin: 0 50% 0;
+	-moz-transform-origin: 0 50% 0;
+	-ms-transform-origin: 0 50% 0;
+	transform-origin: 0 50% 0;
+	-webkit-transform: perspective(1550px)  rotateY(-60deg);
+	-moz-transform: perspective(1550px)  rotateY(-60deg);
+	-ms-transform: perspective(1550px)  rotateY(-60deg);
+	transform: perspective(1550px)  rotateY(-60deg);
+}
+.tg-3d-cover:hover .tg-item-media-content {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: perspective(1550px)  rotateY(0);
+	-moz-transform: perspective(1550px)  rotateY(0);
+	-ms-transform: perspective(1550px)  rotateY(0);
+	transform: perspective(1550px)  rotateY(0);
+}
+.tg-3d-cover .tg-element-3 {
+	position: relative;
+	font-size: 25px;
+	line-height: 23px;
+	font-weight: 700;
+	font-family: Playfair Display;
+	letter-spacing: 2px;
+	display: block;
+	z-index: 3;
+	margin: 0;
+	padding: 0;
+}
+.tg-3d-cover .tg-element-4 {
+	position: relative;
+	font-size: 10px;
+	line-height: 2em;
+	font-weight: 400;
+	font-family: Open Sans;
+	font-style: normal !important;
+	text-transform: uppercase !important;
+	letter-spacing: 2px;
+	display: block;
+	margin: 9px 0 0;
+}
+.tg-3d-cover .tg-element-4 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}
+.tg-3d-cover .tg-element-1 {
+	position: relative;
+	font-size: 20px;
+	line-height: 45px;
+	font-weight: 400;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	width: 45px;
+	min-width: 45px;
+	height: 45px;
+	min-height: 45px;
+	border-width: 1px 0 0 1px;
+	border-style: solid;
+	-webkit-transition: all 340ms ease;
+	-moz-transition: all 340ms ease;
+	-ms-transition: all 340ms ease;
+	transition: all 340ms ease;
+}
+.tg-3d-cover .tg-element-1:hover {
+	background-color: rgba(0,0,0,0.1);
+	opacity: 1 !important;
+}
+.tg-3d-cover .tg-element-2 {
+	position: relative;
+	font-size: 20px;
+	line-height: 45px;
+	font-weight: 400;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	width: 45px;
+	min-width: 45px;
+	height: 45px;
+	min-height: 45px;
+	margin: 0 -1px 0 0;
+	cursor: pointer;
+	border-width: 1px 1px 0;
+	border-style: solid;
+	-webkit-transition: all 340ms ease;
+	-moz-transition: all 340ms ease;
+	-ms-transition: all 340ms ease;
+	transition: all 340ms ease;
+}
+.tg-3d-cover .tg-element-2:hover {
+	background-color: rgba(0,0,0,0.1);
+	opacity: 1 !important;
+}

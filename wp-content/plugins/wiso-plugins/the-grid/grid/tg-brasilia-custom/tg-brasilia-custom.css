@@ -1,0 +1,139 @@
+.tg-brasilia-custom a:not([class*="tg-element-"]),
+.tg-brasilia-custom a:not([class*="tg-element-"]):active,
+.tg-brasilia-custom a:not([class*="tg-element-"]):focus,
+.tg-brasilia-custom [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-brasilia-custom [class*="tg-element-"],
+.tg-brasilia-custom .tg-item-overlay,
+.tg-brasilia-custom .tg-center-holder,
+.tg-brasilia-custom .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-brasilia-custom .tg-item-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 400ms ease !important;
+	-moz-transition: all 400ms ease !important;
+	-ms-transition: all 400ms ease !important;
+	transition: all 400ms ease !important;
+}
+.tg-brasilia-custom:not(.tg-force-play):not(.tg-is-playing):hover .tg-item-overlay {
+	opacity: 1;
+	visibility: visible;
+}
+.tg-brasilia-custom .tg-element-4 {
+	position: absolute;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	display: block;
+	bottom: 22px;
+	right: 28px;
+	z-index: 3;
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	transition: all 250ms ease;
+}
+.tg-brasilia-custom:hover .tg-element-4 {
+	opacity: 1;
+	visibility: visible;
+}
+.tg-brasilia-custom .tg-element-3 {
+	position: absolute;
+	font-size: 13px;
+	font-weight: 600;
+	display: block;
+	left: 28px;
+	bottom: 22px;
+	z-index: 3;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	transition: all 250ms ease;
+}
+.tg-brasilia-custom:hover .tg-element-3 {
+	opacity: 1;
+	visibility: visible;
+}
+.tg-brasilia-custom .tg-element-1 {
+	position: relative;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+	display: block;
+	margin: 22px 28px 10px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	transition: all 250ms ease;
+	-webkit-transform: translate3d(0px,-22px,0px);
+	-moz-transform: translate3d(0px,-22px,0px);
+	-ms-transform: translate3d(0px,-22px,0px);
+	transform: translate3d(0px,-22px,0px);
+}
+.tg-brasilia-custom:hover .tg-element-1 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-brasilia-custom .tg-element-1 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}
+.tg-brasilia-custom .tg-element-2 {
+	position: relative;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 600;
+	display: block;
+	margin: 0 28px;
+	padding: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	transition: all 250ms ease;
+	-webkit-transform: translate3d(0px,22px,0px);
+	-moz-transform: translate3d(0px,22px,0px);
+	-ms-transform: translate3d(0px,22px,0px);
+	transform: translate3d(0px,22px,0px);
+}
+.tg-brasilia-custom:hover .tg-element-2 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}

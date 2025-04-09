@@ -1,0 +1,434 @@
+.tg-kampala-custom a:not([class*="tg-element-"]),
+.tg-kampala-custom a:not([class*="tg-element-"]):active,
+.tg-kampala-custom a:not([class*="tg-element-"]):focus,
+.tg-kampala-custom [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-kampala-custom [class*="tg-element-"],
+.tg-kampala-custom .tg-item-overlay,
+.tg-kampala-custom .tg-center-holder,
+.tg-kampala-custom .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-kampala-custom .tg-item-content-holder[data-position="bottom"] {
+	text-align: center;
+	position: relative;
+	min-height: 1px;
+	display: block;
+	padding: 20px 32px;
+}
+.tg-kampala-custom div.tg-item-media-content {
+	text-align: center;
+}
+.tg-kampala-custom .tg-element-2 {
+	position: absolute;
+	overflow: hidden;
+	font-size: 13px;
+	line-height: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	bottom: 0;
+	right: 0;
+	z-index: 3;
+	width: 80px;
+	min-width: 80px;
+	height: 80px;
+	min-height: 80px;
+}
+.tg-kampala-custom .tg-element-10 {
+	position: absolute;
+	font-size: 13px;
+	line-height: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	top: 50.00%;
+	left: 50.00%;
+	z-index: 3;
+	width: 76px;
+	min-width: 76px;
+	height: 76px;
+	min-height: 76px;
+	margin: -38px 0 0 -38px;
+	border-radius: 100%;
+	z-index:  0 !important;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 500ms cubic-bezier(.39,1.89,.55,1.45);
+	-moz-transition: all 500ms cubic-bezier(.39,1.89,.55,1.45);
+	-ms-transition: all 500ms cubic-bezier(.39,1.89,.55,1.45);
+	transition: all 500ms cubic-bezier(.39,1.89,.55,1.45);
+	-webkit-transform: perspective(500px)  scale3d(0.8,0.8,1);
+	-moz-transform: perspective(500px)  scale3d(0.8,0.8,1);
+	-ms-transform: perspective(500px)  scale3d(0.8,0.8,1);
+	transform: perspective(500px)  scale3d(0.8,0.8,1);
+}
+.tg-kampala-custom .tg-item-media-holder:hover .tg-element-10 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: perspective(500px)  scale3d(1,1,1);
+	-moz-transform: perspective(500px)  scale3d(1,1,1);
+	-ms-transform: perspective(500px)  scale3d(1,1,1);
+	transform: perspective(500px)  scale3d(1,1,1);
+}
+.tg-kampala-custom .tg-element-9 {
+	position: absolute;
+	font-size: 24px;
+	line-height: 75px;
+	font-weight: 400;
+	text-align: center;
+	display: block;
+	top: 50.00%;
+	left: 50.00%;
+	z-index: 3;
+	width: 75px;
+	min-width: 75px;
+	height: 75px;
+	min-height: 75px;
+	margin: -38px 0 0 -38px;
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 500ms cubic-bezier(.39,1.89,.55,1.45);
+	-moz-transition: all 500ms cubic-bezier(.39,1.89,.55,1.45);
+	-ms-transition: all 500ms cubic-bezier(.39,1.89,.55,1.45);
+	transition: all 500ms cubic-bezier(.39,1.89,.55,1.45);
+	-webkit-transform: perspective(500px)  scale3d(1.35,1.35,1);
+	-moz-transform: perspective(500px)  scale3d(1.35,1.35,1);
+	-ms-transform: perspective(500px)  scale3d(1.35,1.35,1);
+	transform: perspective(500px)  scale3d(1.35,1.35,1);
+}
+.tg-kampala-custom .tg-item-media-holder:hover .tg-element-9 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: perspective(500px)  scale3d(1,1,1);
+	-moz-transform: perspective(500px)  scale3d(1,1,1);
+	-ms-transform: perspective(500px)  scale3d(1,1,1);
+	transform: perspective(500px)  scale3d(1,1,1);
+}
+.tg-kampala-custom .tg-element-1 {
+	position: absolute;
+	overflow: hidden;
+	font-size: 13px;
+	line-height: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	width: 80px;
+	min-width: 80px;
+	height: 80px;
+	min-height: 80px;
+}
+.tg-kampala-custom .tg-element-11 {
+	position: absolute;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff !important;
+	font-weight: 400;
+	text-align: center;
+	display: block;
+	top: 12px;
+	left: 8px;
+	z-index: 3;
+	width: 30px;
+	min-width: 30px;
+	height: 30px;
+	min-height: 30px;
+}
+.tg-kampala-custom .tg-element-12 {
+	position: absolute;
+	font-size: 14px;
+	line-height: 26px;
+	color: #444444 !important;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgba(255,255,255,0.9);
+	display: block;
+	top: 45px;
+	left: 10px;
+	z-index: 3;
+	float: left;
+	width: 30px;
+	min-width: 30px;
+	height: 25px;
+	min-height: 25px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 150ms ease-out;
+	-moz-transition: all 150ms ease-out;
+	-ms-transition: all 150ms ease-out;
+	transition: all 150ms ease-out;
+	-webkit-transform: translate3d(0px,25px,0px);
+	-moz-transform: translate3d(0px,25px,0px);
+	-ms-transform: translate3d(0px,25px,0px);
+	transform: translate3d(0px,25px,0px);
+}
+.tg-kampala-custom .tg-item-media-holder:hover .tg-element-12 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-kampala-custom .tg-element-12:hover {
+	color: #3b5998 !important;
+	opacity: 1 !important;
+}
+.tg-kampala-custom .tg-element-13 {
+	position: absolute;
+	font-size: 14px;
+	line-height: 26px;
+	color: #444444 !important;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgba(255,255,255,0.9);
+	display: block;
+	top: 70px;
+	left: 10px;
+	z-index: 3;
+	float: left;
+	width: 30px;
+	min-width: 30px;
+	height: 25px;
+	min-height: 25px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 150ms ease-out;
+	-moz-transition: all 150ms ease-out;
+	-ms-transition: all 150ms ease-out;
+	transition: all 150ms ease-out;
+	-webkit-transform: translate3d(0px,25px,0px);
+	-moz-transform: translate3d(0px,25px,0px);
+	-ms-transform: translate3d(0px,25px,0px);
+	transform: translate3d(0px,25px,0px);
+}
+.tg-kampala-custom .tg-item-media-holder:hover .tg-element-13 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-kampala-custom .tg-element-13:hover {
+	color: #55acee !important;
+	opacity: 1 !important;
+}
+.tg-kampala-custom .tg-element-14 {
+	position: absolute;
+	font-size: 14px;
+	line-height: 26px;
+	color: #444444 !important;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgba(255,255,255,0.9);
+	display: block;
+	top: 95px;
+	left: 10px;
+	z-index: 3;
+	float: left;
+	width: 30px;
+	min-width: 30px;
+	height: 25px;
+	min-height: 25px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 150ms ease-out;
+	-moz-transition: all 150ms ease-out;
+	-ms-transition: all 150ms ease-out;
+	transition: all 150ms ease-out;
+	-webkit-transform: translate3d(0px,25px,0px);
+	-moz-transform: translate3d(0px,25px,0px);
+	-ms-transform: translate3d(0px,25px,0px);
+	transform: translate3d(0px,25px,0px);
+}
+.tg-kampala-custom .tg-item-media-holder:hover .tg-element-14 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-kampala-custom .tg-element-14:hover {
+	color: #d34836 !important;
+	opacity: 1 !important;
+}
+.tg-kampala-custom .tg-element-15 {
+	position: absolute;
+	font-size: 14px;
+	line-height: 26px;
+	color: #444444 !important;
+	font-weight: 400;
+	text-align: center;
+	background-color: rgba(255,255,255,0.9);
+	display: block;
+	top: 120px;
+	left: 10px;
+	z-index: 3;
+	float: left;
+	width: 30px;
+	min-width: 30px;
+	height: 25px;
+	min-height: 25px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 150ms ease-out;
+	-moz-transition: all 150ms ease-out;
+	-ms-transition: all 150ms ease-out;
+	transition: all 150ms ease-out;
+	-webkit-transform: translate3d(0px,25px,0px);
+	-moz-transform: translate3d(0px,25px,0px);
+	-ms-transform: translate3d(0px,25px,0px);
+	transform: translate3d(0px,25px,0px);
+}
+.tg-kampala-custom .tg-item-media-holder:hover .tg-element-15 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.tg-kampala-custom .tg-element-15:hover {
+	color: #cb2027 !important;
+	opacity: 1 !important;
+}
+.tg-kampala-custom .tg-element-3 {
+	position: relative;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 600;
+	font-style: italic;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	margin: 10px 30px 0;
+}
+.tg-kampala-custom .tg-element-4 {
+	position: relative;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	margin: 30px 0 0;
+	padding: 0;
+}
+.tg-kampala-custom .tg-element-8 {
+	position: relative;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 4px 0 0;
+}
+.tg-kampala-custom .tg-element-8 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}
+.tg-kampala-custom .tg-element-5 {
+	position: relative;
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: 400;
+	text-align: left;
+	display: block;
+	margin: 0;
+	padding: 30px 0 0;
+}
+.tg-kampala-custom .tg-element-6 {
+	position: relative;
+	font-size: 13px;
+	line-height: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: inline-block;
+	float: left;
+	margin: 26px 0 0;
+}
+.tg-kampala-custom .tg-element-7 {
+	position: relative;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 400;
+	display: inline-block;
+	float: right;
+	margin: 26px 0 0;
+}
+.tg-kampala-custom .tg-element-7 .to-heart-icon {
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 1px 4px 0 0;
+}
+.tg-kampala-custom .tg-element-7 .to-heart-icon svg {
+	height: 14px;
+	width: 15px;
+}
+.tg-item.tg-kampala-custom .tg-triangle-up-left {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	border-top: 80px solid;
+	border-right: 80px solid transparent !important;
+}
+.tg-item.tg-kampala-custom .tg-triangle-down-right {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	border-bottom: 80px solid;
+	border-left: 80px solid transparent !important;
+}
+.tg-item.tg-kampala-custom .tg-element-10 .tg-button-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+.tg-item.tg-kampala-custom .tg-element-12:after {
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: 10px;
+	width: 0;
+	height: 0;
+	border-bottom: 5px solid rgba(255,255,255,0.9);
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}
+.tg-skin-build-inner .tg-button-overlay {
+	background: rgba(52,73,94,0.75) !important;
+}
+.tg-skin-build-inner .tg-triangle-up-left {
+	border-top-color: rgba(52,73,94,0.75) !important;
+}
+.tg-skin-build-inner .tg-triangle-down-right {
+	border-bottom-color: #ffffff !important;
+}

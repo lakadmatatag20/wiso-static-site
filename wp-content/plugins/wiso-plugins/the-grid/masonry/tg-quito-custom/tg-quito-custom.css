@@ -1,0 +1,170 @@
+.tg-quito-custom a:not([class*="tg-element-"]),
+.tg-quito-custom a:not([class*="tg-element-"]):active,
+.tg-quito-custom a:not([class*="tg-element-"]):focus,
+.tg-quito-custom [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-quito-custom [class*="tg-element-"],
+.tg-quito-custom .tg-item-overlay,
+.tg-quito-custom .tg-center-holder,
+.tg-quito-custom .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-quito-custom .tg-item-overlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 400ms ease !important;
+	-moz-transition: all 400ms ease !important;
+	-ms-transition: all 400ms ease !important;
+	transition: all 400ms ease !important;
+}
+.tg-quito-custom:not(.tg-force-play):not(.tg-is-playing) .tg-item-media-holder:hover .tg-item-overlay {
+	opacity: 1;
+	visibility: visible;
+}
+.tg-quito-custom .tg-item-content-holder[data-position="bottom"] {
+	text-align: center;
+	position: relative;
+	min-height: 1px;
+	display: block;
+	padding: 0 24px 22px;
+}
+.tg-quito-custom div.tg-item-media-content {
+	text-align: center;
+}
+.tg-quito-custom .tg-element-9 {
+	position: relative;
+	font-size: 13px;
+	line-height: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: rgba(0,0,0,0.15);
+	display: inline-block;
+	margin: 10px;
+	padding: 6px 14px;
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 500ms cubic-bezier(.39,1.89,.55,1.45);
+	-moz-transition: all 500ms cubic-bezier(.39,1.89,.55,1.45);
+	-ms-transition: all 500ms cubic-bezier(.39,1.89,.55,1.45);
+	transition: all 500ms cubic-bezier(.39,1.89,.55,1.45);
+	-webkit-transform: perspective(250px)  scale3d(0.8,0.8,1);
+	-moz-transform: perspective(250px)  scale3d(0.8,0.8,1);
+	-ms-transform: perspective(250px)  scale3d(0.8,0.8,1);
+	transform: perspective(250px)  scale3d(0.8,0.8,1);
+}
+.tg-quito-custom .tg-item-media-holder:hover .tg-element-9 {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: perspective(250px)  scale3d(1,1,1);
+	-moz-transform: perspective(250px)  scale3d(1,1,1);
+	-ms-transform: perspective(250px)  scale3d(1,1,1);
+	transform: perspective(250px)  scale3d(1,1,1);
+}
+.tg-quito-custom .tg-element-1 {
+	position: relative;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: rgba(175,175,175,0.08);
+	display: inline-block;
+}
+.tg-quito-custom .tg-element-1 .tg-item-term {
+	position: relative;
+	display: inline-block;
+	padding: 8px 14px;
+}
+.tg-quito-custom .tg-element-3 {
+	position: relative;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	display: block;
+	margin: 0;
+	padding: 22px 20px 0;
+}
+.tg-quito-custom .tg-element-6 {
+	position: relative;
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: 400;
+	display: block;
+	margin: 0;
+	padding: 22px 0 0;
+}
+.tg-quito-custom .tg-element-2 {
+	position: relative;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	margin: 22px 0 0;
+	padding: 8px 20px;
+	border-width: 2px;
+	border-style: solid;
+	-webkit-transition: all 340ms ease;
+	-moz-transition: all 340ms ease;
+	-ms-transition: all 340ms ease;
+	transition: all 340ms ease;
+}
+.tg-quito-custom .tg-element-2:hover {
+	opacity: 0.8 !important;
+}
+.tg-quito-custom .tg-element-5 {
+	position: relative;
+	font-size: 14px;
+	font-weight: 400;
+	display: inline-block;
+}
+.tg-quito-custom .tg-element-4 {
+	position: relative;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 400;
+	font-style: italic;
+	display: inline-block;
+	margin: 21px 0 0;
+}
+.tg-quito-custom .tg-element-8 {
+	position: relative;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 400;
+	font-style: italic;
+	display: inline-block;
+	margin: 21px 0 0;
+	padding: 0 6px;
+}
+.tg-quito-custom .tg-element-7 {
+	position: relative;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 400;
+	font-style: italic;
+	display: inline-block;
+	margin: 21px 0 0;
+}
